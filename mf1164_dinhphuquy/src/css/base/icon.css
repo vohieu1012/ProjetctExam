@@ -1,0 +1,107 @@
+.mi-16 {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.mi-20 {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.mi-24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.mi-32 {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+
+.mi {
+    background: url(../../assets/images/Sprites.64af8f61.svg) no-repeat;
+    cursor: pointer;
+}
+
+.mi-cego {
+    background: url(../../assets/images/CeGo_Sprites.f3e906b1.svg) no-repeat;
+    cursor: pointer;
+}
+
+.mi-app {
+    background-position: -192px 0;
+}
+
+.mi-logo {
+    background: url(../../assets/icons/ic_cegoLogo_new.89475e3e.svg);
+    background-size: 32px;
+}
+
+.mi-notify {
+    background-position: -24px -48px;
+}
+
+.mi-help {
+    background-position: -48px -48px;
+}
+
+.mi-document {
+    background: url(../../assets/icons/ic_document_help.5a303db8.svg);
+}
+
+.mi-setting {
+    background-position: -264px -168px;
+}
+
+.mi-toggle {
+    background: url(../../assets/icons/ic_toggle.4abb3c52.svg);
+}
+
+.mi-dashbord {
+    background-image: url(../../assets/icons/ic_dashboard_default.110fa5f3.svg);
+}
+
+.mi-add-white {
+    background-position: -192px -96px;
+}
+
+.mi-arrow-dropdown {
+    background-position: -160px -117px;
+}
+
+.mi-edit {
+    background-position: 0 -72px;
+}
+
+.mi-more {
+    background-position: -168px -48px;
+}
+
+.mi-filter {
+    background-position: -96px -48px;
+}
+
+.mi-close {
+    background-position: -240px -24px;
+}
+
+.mi-close-red {
+    background-position: -266px -26px;
+}
+
+.mi-checkmark-temp {
+    background-position: -544px -140px;
+}
+
+.mi-checkdone {
+    background-position: -112px -144px;
+}

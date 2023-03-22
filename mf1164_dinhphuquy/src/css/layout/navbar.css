@@ -1,0 +1,190 @@
+.m-navbar {
+    position: absolute;
+    top: 56px;
+    width: 204px;
+    box-sizing: border-box;
+    height: calc(100vh - 56px);
+    box-shadow: inset 0 1.5px 2px 0 rgb(0 0 0 / 10%);
+    transition: width .2s;
+    background: #fff;
+}
+
+.m-navbar .navbar-container {
+    white-space: nowrap;
+    position: relative;
+    height: 100%;
+}
+
+.navbar-container .navbar-menu {
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow: auto;
+}
+
+.navbar-container .navbar-footer {
+    position: absolute;
+    bottom: 18px;
+    margin: 0 8px;
+    width: 92%;
+    border-radius: 8px;
+    height: 40px;
+    line-height: 40px;
+    background: #edf1f5;
+}
+
+.navbar-menu .navbar-item .navbar-item-icon {
+    position: absolute;
+    left: 12px;
+}
+
+
+
+.navbar-container .navbar-menu .navbar-item {
+    font-weight: 500;
+    color: #000;
+    padding: 12px 0 12px 52px;
+    margin: 8px;
+    position: relative;
+}
+
+.navbar-container .navbar-menu .navbar-item:hover {
+    background-color: #eff7ff;
+    color: #ff6d00;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.navbar-menu .navbar-item .navbar-item {
+    font-weight: 500;
+    color: #000;
+}
+
+.navbar-container .navbar-menu .navbar-item::before {
+    content: "";
+    display: block;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.navbar-menu .navbar-item .navbar-item-arrow-right {
+    background: url(../../assets/icons/ic_arrow_black_right.c6cd6189.svg);
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    opacity: 1;
+    transition: opacity .6s linear;
+}
+
+.navbar-menu .navbar-line {
+    border-top: 2px solid #ddd;
+    margin: 0 14px;
+}
+
+.router-link-active .navbar-item {
+    color: #ff6d00 !important;
+    background: #fbe9e7;
+    border-radius: 8px;
+}
+
+.navbar-menu .navbar-item.nav-movement::before {
+    background-image: url(../../assets/icons/ic_movement_default.102c9e3d.svg);
+}
+
+.navbar-menu .navbar-item:hover.nav-movement::before,
+.router-link-active .navbar-item.nav-movement::before {
+    background-image: url(../../assets/icons/ic_movement.629f9e51.svg);
+}
+
+.navbar-menu .navbar-item.nav-dashboard::before {
+    background: url(../../assets/icons/ic_dashboard_default.110fa5f3.svg);
+}
+
+.navbar-menu .navbar-item:hover.nav-dashboard::before,
+.router-link-active .navbar-item.nav-dashboard::before {
+    background-image: url(../../assets/icons/ic_dashboard.41eba193.svg);
+}
+
+.navbar-menu .navbar-item.nav-reward::before {
+    background: url(../../assets/icons/ic_reward_default.156d6945.svg);
+}
+
+.navbar-menu .navbar-item:hover.nav-reward::before,
+.router-link-active .navbar-item.nav-reward::before {
+    background-image: url(../../assets/icons/ic_reward.025cd252.svg);
+}
+
+.navbar-menu .navbar-item.nav-decision::before {
+    background: url(../../assets/icons/ic_decision_menu_default.cae653f2.svg);
+}
+
+.navbar-menu .navbar-item:hover.nav-decision::before,
+.router-link-active .navbar-item.nav-decision::before {
+    background-image: url(../../assets/icons/ic_decision_menu.3fd2f620.svg);
+}
+
+.navbar-menu .navbar-item.nav-profile::before {
+    background: url(../../assets/icons/ic_profile_default.d730fb8f.svg);
+}
+
+.navbar-menu .navbar-item:hover.nav-profile::before,
+.router-link-active .navbar-item.nav-profile::before {
+    background-image: url(../../assets/icons/ic_profile.628cd9e5.svg);
+}
+
+.navbar-menu .navbar-item.nav-search::before {
+    background: url(../../assets/icons/ic_search_default.903d371b.svg);
+}
+
+.navbar-menu .navbar-item:hover.nav-search::before,
+.router-link-active .navbar-item.nav-search::before {
+    background-image: url(../../assets/icons/ic_search.3b67786b.svg);
+}
+
+
+.navbar-menu .navbar-item.nav-report::before {
+    background: url(../../assets/icons/ic_report_default.67157268.svg);
+}
+
+.navbar-menu .navbar-item:hover.nav-report::before,
+.router-link-active .navbar-item.nav-report::before {
+    background-image: url(../../assets/icons/ic_report.87c66795.svg);
+}
+
+.navbar-menu .navbar-item.nav-category::before {
+    background: url(../../assets/icons/ic_category_default.d46f95b8.svg);
+}
+
+.navbar-menu .navbar-item:hover.nav-category::before,
+.router-link-active .navbar-item.nav-category::before {
+    background-image: url(../../assets/icons/ic_category.f257fcc6.svg);
+}
+
+.navbar-menu .navbar-item.nav-system::before {
+    background: url(../../assets/icons/ic_setting_default.be222d4a.svg);
+}
+
+.navbar-menu .navbar-item:hover.nav-system::before,
+.router-link-active .navbar-item.nav-system::before {
+    background-image: url(../../assets/icons/ic_setting.ed993518.svg);
+}
+
+.navbar-menu .navbar-item.nav-guide::before {
+    background: url(../../assets/icons/ic_guide_default.186420dc.svg);
+}
+
+.navbar-menu .navbar-item:hover.nav-guide::before,
+.router-link-active .navbar-item.nav-guide::before {
+    background-image: url(../../assets/icons/ic_guide.b54f8d8a.svg);
+}
+
+.navbar-menu .navbar-item:hover .navbar-item-arrow-right,
+.router-link-active .navbar-item .navbar-item-arrow-right {
+    background: url(../../assets/icons/ic_arrow_color_right.9db568c7.svg);
+}

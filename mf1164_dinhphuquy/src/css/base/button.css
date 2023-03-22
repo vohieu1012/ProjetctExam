@@ -1,0 +1,101 @@
+.btn.btn-primary {
+    color: #fff;
+    background: #2979ff;
+}
+
+button.btn {
+    padding: 0;
+    outline: none;
+}
+
+.btn {
+    min-height: 36px;
+    min-width: 80px;
+    border: none;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 4px;
+    white-space: nowrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.btn .btn-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 16px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn:not(:disabled).btn-primary:hover {
+    background: #1a73e8;
+}
+
+.btn:not(:disabled).btn-primary:focus {
+    background: #0062cc;
+}
+
+.btn:not(:disabled).btn-secondary:hover {
+    background: #f4f5f8;
+}
+
+.btn.btn-secondary {
+    border: 1px solid #e0e0e0;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+}
+
+.btn.primary-outline {
+    border: 1px solid #2979ff;
+    color: #2979ff;
+    background: #fff;
+}
+
+.btn:not(:disabled).primary-outline:hover {
+    background: #eef4ff;
+}
+
+.btn:not(:disabled).primary-outline:active,
+.btn:not(:disabled).primary-outline:focus {
+    background: #0062cc;
+    color: #fff !important;
+}
+
+.btn:not(:disabled).btn-secondary:focus {
+    background: #ebebeb;
+}
+
+.btn.secondary,
+.btn.secondary-outline {
+    border: 1px solid #e0e0e0;
+    color: #000;
+    background: #fff;
+}
+
+.btn:not(:disabled).secondary-outline:hover {
+    background: #f4f5f8;
+}
+
+.btn.secondary-outline-red {
+    border: 1px solid #ef5350;
+    color: #ef5350;
+    background: #fff;
+}
+
+.btn:not(:disabled).secondary-outline-red:hover {
+    background: #fef1f1;
+}
+
+.btn.btn-danger {
+    color: #fff;
+    background: #ef5350;
+}
+
+.btn:not(:disabled).btn-danger:hover {
+    background: #e54340;
+}

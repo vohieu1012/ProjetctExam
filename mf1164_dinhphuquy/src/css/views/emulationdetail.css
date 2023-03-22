@@ -1,0 +1,228 @@
+.detail-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.253);
+    z-index: 100;
+}
+
+.detail-popup .popup-modal {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.popup-modal .ms-popup {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 16px rgb(23 27 42 / 24%);
+    overflow: auto;
+    border-radius: 4px;
+    height: auto;
+    min-height: 100%;
+}
+
+.ms-popup .popup-header {
+    font-size: 20px;
+    padding: 24px 0 6px 24px;
+    font-weight: 700;
+    min-height: 24px;
+}
+
+.ms-editor .border:disabled {
+    background-color: #ebebeb !important;
+    color: #b5b5b5;
+}
+
+.ms-editor .border.disabled {
+    background-color: #ebebeb !important;
+    color: #b5b5b5;
+}
+
+.ms-popup .buttons {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    display: flex
+}
+
+.btn-pop {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 8px;
+}
+
+.ms-popup-button .icon-close-popup {
+    padding-top: 12px;
+}
+
+.ms-popup-button .icon-close-popup::before {
+    content: "";
+    display: block;
+    background: transparent url(../../assets/images/Sprites.64af8f61.svg) no-repeat;
+    background-position: -242px -26px;
+    height: 20px;
+    width: 20px;
+}
+
+.ms-popup-button:hover .icon-close-popup::before {
+    background-position: -266px -26px;
+}
+
+.ms-popup .popup-content {
+    padding: 24px 24px 0;
+    position: relative;
+}
+
+.form-group:not(.top) {
+    margin-bottom: 16px;
+}
+
+.ms-checkbox input.ms-checkbox-control {
+    position: absolute;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    z-index: 500;
+}
+
+.form-group.slide-detail label.form-group-label {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    height: 20px;
+    margin-bottom: 8px;
+    padding: 0;
+    width: auto;
+}
+
+.form-group.slide-detail .ms-radio {
+    padding: 0;
+}
+
+.error-text {
+    color: #ef5350;
+    margin-top: 6px;
+}
+
+.form-group label {
+    width: 140px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ms-checkbox--text {
+    padding-left: 4px;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
+.checkbox-group {
+    height: 34px;
+    margin-bottom: 9px;
+}
+
+.ms-textarea .ms-textarea-item {
+    border: none;
+    padding: 6px 12px;
+    font-family: MISA Font;
+    resize: none;
+    background: 0 0;
+}
+
+.ms-textarea .ms-textarea-item:focus {
+    outline: none;
+}
+
+.ms-textarea {
+    background: #fff;
+    align-items: center;
+}
+
+.ms-editor .border.error-border {
+    border: 1px solid #ef5350 !important;
+}
+
+.text-black.ms-checkbox {
+    display: inline-block;
+}
+
+.text-black {
+    color: #000;
+    font-weight: 400;
+}
+
+/**popup footer**/
+.popup-footer {
+    padding: 12px 24px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.flex-rtl {
+    display: flex;
+    flex-direction: rtl;
+    direction: rtl;
+    justify-content: flex-end;
+}
+
+/***tooltip**/
+#top-2 {
+    top: -30px;
+    left: -60%;
+}
+
+#top-2::before {
+    top: 80%;
+    left: 45%;
+}
+
+#top-3 {
+    top: -30px;
+    left: -20%;
+}
+
+#top-3::before {
+    top: 80%;
+    left: 45%;
+}
+
+
+#top-4 {
+    top: -40px;
+    left: 30px;
+}
+
+#top-4::before {
+    top: 80%;
+    left: 45%;
+}
+
+#top-5 {
+    top: -40px;
+    left: 10px;
+}
+
+#top-5::before {
+    top: 80%;
+    left: 45%;
+}
+
+.flex-rtl .positon-relative:hover .tooltip-text {
+    visibility: visible;
+}
+
+.ms-popup .buttons .ms-popup-button:hover .tooltip-text {
+    visibility: visible;
+}

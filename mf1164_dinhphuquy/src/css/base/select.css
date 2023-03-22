@@ -1,0 +1,9 @@
+.p-dropdown {
+    height: 35px;
+    width: 100%;
+    border: none;
+}
+
+.p-dropdown:not(.p-disabled).p-focus {
+    box-shadow: none;
+}

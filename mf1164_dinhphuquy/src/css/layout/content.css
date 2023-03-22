@@ -1,0 +1,8 @@
+.m-content {
+    position: absolute;
+    top: 56px;
+    height: calc(100vh - 56px);
+    left: 204px;
+    width: calc(100% - 204px);
+
+}
